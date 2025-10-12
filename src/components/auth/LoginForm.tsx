@@ -13,7 +13,7 @@ import {
 import { Dumbbell, Eye, EyeOff } from "lucide-react";
 import { useAuthStore, useInitializeAuth } from "@/stores/authStore";
 import { useToast } from "@/hooks/use-toast";
-import gymHeroImage from "@/assets/gym-hero.jpg";
+import gymHeroImage from "@/assets/gym_hero2.webp";
 
 export function LoginForm() {
   const [username, setUsername] = useState("");
@@ -74,7 +74,7 @@ export function LoginForm() {
       <div className="hidden lg:flex lg:w-1/2 relative overflow-hidden">
         <img
           src={gymHeroImage}
-          alt="Modern gym interior"
+          alt="AFRGYM hero"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
