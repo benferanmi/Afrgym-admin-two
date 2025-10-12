@@ -69,9 +69,9 @@ export function LoginForm() {
   }
 
   return (
-    <div className="min-h-screen flex">
+    <div className="min-h-screen lg:max-h-screen flex">
       {/* Hero Section */}
-      <div className="hidden lg:flex lg:w-1/2 relative overflow-hidden">
+      <div className="hidden  lg:flex lg:w-1/2 relative overflow-hidden">
         <img
           src={gymHeroImage}
           alt="AFRGYM hero"
