@@ -497,7 +497,7 @@ export const useUsersStore = create<UsersState>((set, get) => ({
         queryParams.append("search", search);
       }
 
-      const response: UsersResponse = await apiCall(`/users?${queryParams}`);
+      const response: UsersResponse = await apiCall(`/users/gym-two?${queryParams}`);
 
       set({
         users: response.users,
