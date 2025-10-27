@@ -139,10 +139,10 @@ export default function Dashboard() {
       </div>
 
       {/* Growth Trends - Full width */}
-      <GrowthTrendsChart />
+      {/* <GrowthTrendsChart /> */}
 
       {/* Existing Charts - Keep your current charts */}
-      <div className="grid gap-6">
+      {/* <div className="grid gap-6">
         <MembershipDistributionChart data={membershipDistribution} />
       </div>
 
@@ -150,7 +150,7 @@ export default function Dashboard() {
         <MembershipBarChartComplete data={membershipDistributionData} />
         <MembershipBarChart data={membershipDistributionData} />
 
-      </div>
+      </div> */}
 
       <div className="grid gap-6">
       </div>
