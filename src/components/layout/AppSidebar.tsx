@@ -9,6 +9,7 @@ import {
   ChevronLeft,
   ChevronRight,
   Dumbbell,
+  ShoppingBagIcon,
 } from "lucide-react";
 import { NavLink, useLocation } from "react-router-dom";
 import {
@@ -31,6 +32,7 @@ const navigationItems = [
   { title: "QR Codes", url: "/qr-codes", icon: QrCode },
   { title: "Memberships", url: "/memberships", icon: CreditCard },
   { title: "Email Center", url: "/emails", icon: Mail },
+  { title: "Products", url: "/products", icon: ShoppingBagIcon },
   // { title: "Settings", url: "/settings", icon: Settings },
 ];
 
