@@ -3,7 +3,7 @@ import {
   Search,
   User,
   LogOut,
-  Menu,
+  Menu,                                                                                                                                                                                                                                                                                                                                                                                                             
   X,
   LayoutDashboard,
   Users,
